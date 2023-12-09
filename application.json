@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "id": "Car showroom",
+      "isDefault": true
+    },
+    {
+      "id": "Car servicing",
+      "isDefault": false
+    },
+    {
+      "id": "Business dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "页面1",
+      "isDefault": false
+    },
+    {
+      "id": "Public.candidate_feedback",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "62332e970c166d1757961c84",
+  "color": "#FBF4ED",
+  "icon": "bitcoin",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

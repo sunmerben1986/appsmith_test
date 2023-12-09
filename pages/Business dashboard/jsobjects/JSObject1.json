@@ -1,0 +1,21 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Business dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n    expected_revenue: [5000000000],\n\t\tgetCarSalesRevenue: () => {\n\t\t\treturn(carsales_revenue.data[0].sum);\n\t\t},\n\tgetCarsSold: () => {\n\t\treturn ((select_showroom_db.data.length))\n\t},\n\tgetCarsRepaired: () => {\n\t\treturn ((\tselect_repair_db.data.length))\n\t},\n\tgetCarRepairRevenue: () => {\n\t\tconst arr = select_repair_db.data.map(y => parseInt(y.total_cost))\n\t\treturn ((arr.reduce((a, b) => a + b, 0)))\n\t},\n\tnumFormatter_1: () => {\n\t\tconst num = (JSObject1.getCarRepairRevenue())\n    if(num > 999 && num < 1000000){\n        return (num/1000).toFixed(0) + 'K'; \n    }else if(num > 1000000){\n        return (num/1000000).toFixed(0) + 'M'; \n    }else if(num < 900){\n        return num; \n    }\n},\n\t\tnumFormatter_2: () => {\n\t\tconst num = (JSObject1.getCarSalesRevenue())\n    if(num > 999 && num < 1000000){\n        return (num/1000).toFixed(0) + 'K'; \n    }else if(num > 1000000){\n        return (num/1000000).toFixed(0) + 'M'; \n    }else if(num < 900){\n        return num; \n    }\n},\n\t\tnumFormatter_3: () => {\n\t\tconst num = (JSObject1.getCarSalesRevenue() + JSObject1.getCarRepairRevenue())\n    if(num > 999 && num < 1000000){\n        return (num/1000).toFixed(0) + 'K'; \n    }else if(num > 1000000){\n        return (num/1000000).toFixed(0) + 'M'; \n    }else if(num < 900){\n        return num; \n    }\n},\n\tround_feedback: () => {\n\t\tconst feedback = Math.round(avg_feed_repair.data[0].AverageValue)\n\t\treturn feedback\n\t},\n\t\t\tnumFormatter_4: () => {\n\t\tconst num = (JSObject1.expected_revenue[0])\n    if(num > 999 && num < 1000000){\n        return (num/1000).toFixed(0) + 'K'; \n    }else if(num > 1000000){\n        return (num/1000000).toFixed(0) + 'M'; \n    }else if(num < 900){\n        return num; \n    }\n\t\t\t}\n}",
+    "variables": [
+      {
+        "name": "expected_revenue",
+        "value": "[5000000000]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Business dashboard_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62332e970c166d1757961c84_623eb45bc99df23699317d44"
+}

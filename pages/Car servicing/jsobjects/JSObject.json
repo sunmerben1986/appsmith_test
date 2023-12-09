@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject",
+    "pageId": "Car servicing",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\t\tsearch: () => {\n\t\tif(Input1Copy.text.length==0){\n\t\t\treturn select_repair_db.data\n\t\t}\n\t\telse{\n\t\t\treturn(select_repair_db.data.filter(word => word.cust_name.toLowerCase().includes(Input1Copy.text.toLowerCase())))\n\t\t}\n\t},\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Car servicing_JSObject",
+  "deleted": false,
+  "gitSyncId": "6256ad4d0d3d384069c06c61_6296079ab4c51656bfeb9864"
+}

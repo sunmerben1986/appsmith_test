@@ -1,0 +1,165 @@
+{
+  "unpublishedPage": {
+    "name": "页面1",
+    "slug": "1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1090,
+          "containerStyle": "none",
+          "snapRows": 79,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 71,
+          "minHeight": 800,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Iframe1",
+              "displayName": "Iframe",
+              "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+              "searchTags": [
+                "embed",
+                "html"
+              ],
+              "topRow": 2,
+              "bottomRow": 46,
+              "parentRowSpace": 10,
+              "source": "https://www.bilibili.com",
+              "type": "IFRAME_WIDGET",
+              "hideCard": false,
+              "borderOpacity": 100,
+              "animateLoading": true,
+              "parentColumnSpace": 19.21875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 1,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "borderWidth": 1,
+              "key": "nsqgiagkpp",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "widgetId": "7gok3h0d42",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "schema": "{\"form\":{\"labelCol\":6,\"wrapperCol\":12},\"schema\":{\"type\":\"object\",\"properties\":{},\"x-designable-id\":\"xo77gu2gi2y\"}}",
+              "widgetName": "formily1",
+              "isCanvas": false,
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form",
+                "submit"
+              ],
+              "topRow": 53,
+              "bottomRow": 101,
+              "parentRowSpace": 10,
+              "title": "表单标题",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "parentColumnSpace": 19.21875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 29,
+              "dynamicBindingPathList": [],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "pcbuw17svg",
+              "submitLabel": "提交",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "trso57e7zp",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            },
+            {
+              "resetFormOnClick": false,
+              "boxShadow": "none",
+              "widgetName": "Button1",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "displayName": "按钮",
+              "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+              "searchTags": [
+                "click",
+                "submit",
+                "button"
+              ],
+              "topRow": 67,
+              "bottomRow": 100,
+              "parentRowSpace": 10,
+              "type": "BUTTON_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 19.21875,
+              "leftColumn": 10,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "text": "提交",
+              "isDisabled": false,
+              "key": "8r0z36bkem",
+              "isDeprecated": false,
+              "rightColumn": 26,
+              "isDefaultClickDisabled": true,
+              "widgetId": "hzbj3as5rq",
+              "isVisible": true,
+              "recaptchaType": "V3",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "disabledWhenInvalid": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "页面1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "657420da02f2017cc3d3c338_657421c402f2017cc3d3c383"
+}

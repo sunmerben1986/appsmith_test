@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "randomID",
+    "pageId": "Business dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\trandomSalesID: () => {\n    return Math.ceil(Math.random() * (9999 -  + 1)) + 1;\n},\n\trandomCustomerID: () => {\n    return Math.ceil(Math.random() * (99999 -  + 1)) + 1;\n} \n\t}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Business dashboard_randomID",
+  "deleted": false,
+  "gitSyncId": "62332e970c166d1757961c84_623898e54d9aea1b062aec4e"
+}
